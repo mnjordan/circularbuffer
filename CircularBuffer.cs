@@ -1,28 +1,8 @@
-﻿/*
-* $HeadURL: svn://esvn/NEXT_PC_Apps/NB_Embedded_SPI/trunk/NB_EngineeringApp/Models/CircularBuffer.cs $
-*
-*  Created on: 13 Mar 2019
-*      Author: Matt Jordan
-*
-*      Last Modified: $LastChangedDate: 2019-03-28 16:45:43 -0700 (Thu, 28 Mar 2019) $
-*      Last Modified by: $LastChangedBy: robby.connor $
-*      LastChangedRevision : $LastChangedRevision: 11692 $
-*
-*      This software is provided "as is".  NEXT Biometrics makes no warranty of any kind, either
-*      express or implied, including without limitation any implied warranties of condition, uninterrupted
-*      use, merchantability, or fitness for a particular purpose.
-*
-*      This document as well as the information or material contained is copyrighted.
-*      Any use not explicitly permitted by copyright law requires prior consent of NEXT Biometrics.
-*      This applies to any reproduction, revision, translation and storage.
-*
-*/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NB_EngineeringApp.Models
+namespace Generics.Models
 {
     /// <summary>
     /// Represents a circular buffer of <typeparamref name="T"/>.
